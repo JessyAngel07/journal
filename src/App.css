@@ -24,6 +24,10 @@
   color: white;
 }
 
+body {
+  background-color: #3e394b;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -32,7 +36,43 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+::selection {
+  background-color: #0c63f5cc;
+  color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.input {
+  border:none;
+  outline: none;
+  background-color: #0d0131;
+  border-radius: 4px;
+  padding: 12px 25px;
+  margin: 12px 20px;
+  width:250px;
+  height: 25px;
+  color: #FFF;
+}
+
